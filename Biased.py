@@ -22,8 +22,7 @@ final_list = below + above
 
 
 def main():
-	random_pos = random_number(min_r , max_r)
-	print(final_list[random_pos])
+	print(final_list[random_number(min_r , max_r)])
 
 if __name__=='__main__':
 	main()
